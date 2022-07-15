@@ -1,0 +1,271 @@
+<html>
+<head>
+  <title>Google Lens VS MobileNet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    </head><body>
+    <h3 class="btn heading">Google Lens VS MobileNet</h3>
+    <ol>
+    <div class="test_image_and_result col_xs_12">
+    <li class="col-sm-4 col-xs-12">
+    <b>Test Image -</b>
+    <img src ="Body Lotion.JPG" class="img-responsive">
+    </li>
+
+    <h5 class="col-sm-4 col-xs-12">
+    Output on <b>GOOGLE LENS</b> - Body Lotion
+    <span></span>
+      </h5>
+
+    <h5 class="col-sm-4 col-xs-12">
+    Output on <b>MobileNet Model</b> - Vaccum Cleaner
+    <span></span>
+    </h5>
+
+    <div class="mini_result" class="col-xs-12">
+    <h4>Result - </h4>
+    <hr>
+    <h4 class="Label1">Google Wins! </h4>
+    </div>
+    </div>
+    <br>
+
+    <div class="test_image_and_result col_xs_12">
+    <li class="col-sm-4 col-xs-12">
+    <b>Test Image -</b>
+    <img src ="Bottle.JPG" class="img-responsive">
+    </li>
+  
+    <h5 class="col-sm-4 col-xs-12">
+     Output on <b>GOOGLE LENS</b> - Mixed Fruit Smoothie
+    <span></span>
+    </h5>
+  
+    <h5 class="col-sm-4 col-xs-12">
+    Output on <b>MobileNet Model</b> - Water Bottle
+    <span></span>
+    </h5>
+  
+    <div class="mini_result" class="col-xs-12">
+    <h4>Result -</h4>
+    <hr>
+    <h4 class="Label2"> MobileNet Model Wins! </h4>
+    </div>
+    </div>
+    <br>
+
+    <div class="test_image_and_result col_xs_12">
+    <li class="col-sm-4 col-xs-12">
+    <b>Test Image -</b>
+    <img src ="EarPods.JPG" class="img-responsive">
+    </li>
+
+    <h5 class="col-sm-4 col-xs-12">
+    Output on <b>GOOGLE LENS</b> - Apple Headphones
+    <span></span>
+    </h5>
+
+    <h5 class="col-sm-4 col-xs-12">
+    Output on <b>MobileNet Model</b> - Computer Mouse
+    <span></span>
+    </h5>
+
+    <div class="mini_result" class="col-xs-12">
+    <h4>Result -</h4>
+    <hr>
+    <h4 class="Label3"> Google Wins!</h4>
+    </div>
+    </div>
+    <br>
+
+   <div class="test_image_and_result col_xs_12">
+    <li class="col-sm-4 col-xs-12">
+    <b>Test Image -</b>
+    <img src ="Glue.JPG" class="img-responsive">
+    </li>
+    
+    <h5 class="col-sm-4 col-xs-12">
+    Output on <b>GOOGLE LENS</b> - White Glue
+    <span></span>
+    </h5>
+    
+    <h5 class="col-sm-4 col-xs-12">
+    Output on <b>MobileNet Model</b> - Vaccum Cleaner
+    <span></span>
+    </h5>
+    
+    <div class="mini_result" class="col-xs-12">
+    <h4>Result -</h4>
+    <hr>
+    <h4 class="Label4"> Google wins!</h4>
+    </div>
+    </div>
+    <br>
+
+    <div class="test_image_and_result col_xs_12">
+    <li class="col-sm-4 col-xs-12">
+    <b>Test Image -</b>
+    <img src ="Laptop.JPG" class="img-responsive">
+    </li>
+        
+   <h5 class="col-sm-4 col-xs-12">
+    Output on <b>GOOGLE LENS</b> - Laptop
+    <span></span>
+    </h5>
+        
+    <h5 class="col-sm-4 col-xs-12">
+    Output on <b>MobileNet Model</b> - Desktop Computer
+    <span></span>
+    </h5>
+        
+    <div class="mini_result" class="col-xs-12">
+    <h4>Result -</h4>
+    <hr>
+    <h4 class="Label5"> Google Wins!</h4>
+    </div>
+    </div>
+    <br>
+
+    <div class="test_image_and_result col_xs_12">
+    <li class="col-sm-4 col-xs-12">
+    <b>Test Image -</b>
+    <img src ="Mouse.JPG" class="img-responsive">
+    </li>
+            
+    <h5 class="col-sm-4 col-xs-12">
+    Output on <b>GOOGLE LENS</b> - Wired USB Mouse
+    <span></span>
+    </h5>
+            
+    <h5 class="col-sm-4 col-xs-12">
+    Output on <b>MobileNet Model</b> - Computer Mouse
+    <span></span>
+    </h5>
+            
+    <div class="mini_result" class="col-xs-12">
+    <h4>Result -</h4>
+    <hr>
+    <h4 class="Label6"> Draw</h4>
+    </div>
+    </div>
+    <br>
+
+    <div class="test_image_and_result col_xs_12">
+    <li class="col-sm-4 col-xs-12">
+    <b>Test Image -</b>
+    <img src ="Remote.JPG" class="img-responsive">
+    </li>
+                
+    <h5 class="col-sm-4 col-xs-12">
+    Output on <b>GOOGLE LENS</b> - Digital TV DTH Remote
+    <span></span>
+    </h5>
+                
+    <h5 class="col-sm-4 col-xs-12">
+    Output on <b>MobileNet Model</b> - Remote
+    <span></span>
+    </h5>
+                
+    <div class="mini_result" class="col-xs-12">
+    <h4>Result -</h4>
+    <hr>
+    <h4 class="Label7"> Draw</h4>
+    </div>
+    </div>
+    <br>
+
+    <div class="test_image_and_result col_xs_12">
+    <li class="col-sm-4 col-xs-12">
+    <b>Test Image -</b>
+    <img src ="Skittles.JPG" class="img-responsive">
+    </li>
+                    
+    <h5 class="col-sm-4 col-xs-12">
+    Output on <b>GOOGLE LENS</b> - Skittles
+    <span></span>
+    </h5>
+                    
+   <h5 class="col-sm-4 col-xs-12">
+   Output on <b>MobileNet Model</b> -Punching Bag 
+   <span></span>
+   </h5>
+   <div class="mini_result" class="col-xs-12">
+   <h4>Result -</h4>
+   <hr>
+   <h4 class="Label8">Google Wins! </h4>
+   </div>
+   </div>
+   <br>
+
+   <div class="test_image_and_result col_xs_12">
+   <li class="col-sm-4 col-xs-12">
+   <b>Test Image -</b>
+   <img src ="Smart Band.JPG" class="img-responsive">
+   </li>
+                        
+   <h5 class="col-sm-4 col-xs-12">
+    Output on <b>GOOGLE LENS</b> - Smart Band
+    <span></span>
+    </h5>
+                        
+    <h5 class="col-sm-4 col-xs-12">
+    Output on <b>MobileNet Model</b> - Hair Dryer
+    <span></span>
+    </h5>
+                        
+    <div class="mini_result" class="col-xs-12">
+    <h4>Result -</h4>
+    <hr>
+    <h4 class="Label9"> Google Wins!</h4>
+    </div>
+    </div>
+    <br>
+
+  <div class="test_image_and_result col_xs_12">
+    <li class="col-sm-4 col-xs-12">
+    <b>Test Image -</b>
+    <img src ="Tape.JPG" class="img-responsive">
+    </li>
+                            
+    <h5 class="col-sm-4 col-xs-12">
+    Output on <b>GOOGLE LENS</b> - Cello Type 
+    <span></span>
+    </h5>
+                            
+    <h5 class="col-sm-4 col-xs-12">
+    Output on <b>MobileNet Model</b> - Espresso Maker
+    <span></span>
+    </h5>
+                            
+    <div class="mini_result" class="col-xs-12">
+    <h4>Result -</h4>
+    <hr>
+    <h4 class="Label10">Google Wins! </h4>
+    </div>
+    </div>
+    <br>
+
+    
+      
+    </div>
+   </ol>
+
+
+  <div class="copy_right_footer">
+  Developed by - Vinay Datta
+
+  </div>
+
+  <script src="main.js"></script>
+  </body>
+
+   </html>
+
+

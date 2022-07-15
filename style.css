@@ -1,0 +1,77 @@
+  .heading
+  {
+    font-size:23px;
+    width: 100%;
+    margin: 0px;
+    color:black;
+  }
+  .heading_div
+  {
+    float:none;
+    background: white ; 
+    padding:10px;
+    border-radius: 20px; 
+    color: black;
+  }
+ .copy_right_footer {
+  position:fixed;
+  color:black;
+  bottom:0;
+  width:100%;
+  background-color:white;
+  line-height:3;
+  text-align:center;
+ }
+
+ .test_image_and_result
+ {
+  width:90%;
+  background:grey;
+  height:600px;
+ }
+ h4,h5{
+  font-size:25px;
+ }
+
+ .Label1
+ {
+  color:greenyellow;
+ }
+ .Label2
+ {
+  color:greenyellow;
+ }
+ .Label3
+ {
+  color:greenyellow;
+ }
+ .Label4
+ {
+  color:greenyellow;
+ }
+ .Label5
+ {
+  color:greenyellow;
+ }
+ .Label6
+ {
+  color:red;
+ }
+ .Label7
+ {
+  color:red;
+ }
+ .Label8
+ {
+  color:greenyellow;
+ }
+ .Label9
+ {
+  color:greenyellow;
+ }
+ .Label10
+ {
+  color:greenyellow;
+ }
+
+ 
